@@ -59,7 +59,11 @@ open class PencilKitSignatureView: UIView, ISignatureView {
     */
     open var signature: UIImage? {
         get {
-            canvas.drawing.image(from: bounds, scale: 1.0)
+            let currentTraits = UITraitCollection.current
+            UITraitCollection.current = UITraitCollection(userInterfaceStyle: .light)
+            let image = canvas.drawing.image(from: bounds, scale: 1.0)
+            UITraitCollection.current = currentTraits
+            return image
         }
 
         set {

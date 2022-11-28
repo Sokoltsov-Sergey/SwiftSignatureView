@@ -1,5 +1,5 @@
 PODS:
-  - SwiftSignatureView (3.0.0)
+  - SwiftSignatureView (3.2.0)
 
 DEPENDENCIES:
   - SwiftSignatureView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftSignatureView: 8c19599d9df0c9ae41f3b175c9496e875ad0f9f9
+  SwiftSignatureView: b8399bd0da70923b9f84a10a3546d726c6d1b337
 
 PODFILE CHECKSUM: 929bc4f63ccd9f7c282d28b1a54f6826f4f90465
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.11.3
