@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftSignatureView",
-    platforms: [.iOS(.v8), .tvOS(.v9)],
+    platforms: [.iOS(.v13), .tvOS(.v9)],
     products: [
         .library(name: "SwiftSignatureView", targets: ["SwiftSignatureView"])
     ],
